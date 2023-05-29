@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import "./Jatekosfc.css";
 
 const Jatekosfc = () => {
     const [playerfc, setPlayerfc] = useState({});
@@ -30,10 +31,20 @@ const Jatekosfc = () => {
     }, [param.id]);
   return (
     <div className="jatekosfc-container">
-    <h1>A játékos neve: {playerfc.nev}</h1>
-    <p>A játékos életkora: {playerfc.kor}</p>
-    <img src={playerfc.kep} alt="kép" />
-  </div>
+      <table>
+        <tbody>
+          <tr>
+          <td><h1>A játékos neve: {playerfc.nev}</h1></td>
+          </tr>
+          <tr>
+          <td><p>A játékos életkora: {playerfc.kor}</p></td>
+          </tr>
+          <tr>
+          <td><img src={playerfc.kep} alt="kép" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   )
 }
 

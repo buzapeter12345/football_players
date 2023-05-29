@@ -32,12 +32,20 @@ const Jatekosma = () => {
     }, [param.id]);
   return (
     <div className="jatekosma-container">
-      <div className="jatekos">
-        <h1>A játékos neve: {playerma.nev}</h1>
-        <p>A játékos életkora: {playerma.kor}</p>
-        <img src={playerma.kep} alt="kép" />
-      </div>
-  </div>
+      <table>
+        <tbody>
+          <tr>
+          <td><h1>A játékos neve: {playerma.nev}</h1></td>
+          </tr>
+          <tr>
+          <td><p>A játékos életkora: {playerma.kor}</p></td>
+          </tr>
+          <tr>
+          <td><img src={playerma.kep} alt="kép" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   )
 }
 

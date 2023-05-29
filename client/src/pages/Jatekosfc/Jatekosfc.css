@@ -1,4 +1,4 @@
-.jatekosma-container {
+.jatekosfc-container {
     border-radius: 50px;
     background: #dbdbdb;
     box-shadow:  20px 20px 60px #ffffffc7,
@@ -14,16 +14,16 @@
     padding-bottom: 20px;
 }
 
-.jatekosma-container h1 {
+.jatekosfc-container h1 {
     font-size: 30px;
 }
 
-.jatekosma-container p {
+.jatekosfc-container p {
     font-size: 24px;
     text-align: center;
 }
 
-.jatekosma-container img {
+.jatekosfc-container img {
     height: 200px;
     width: 200px;
     object-fit: cover;
@@ -33,22 +33,22 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .jatekosma-container {
+    .jatekosfc-container {
         width: 420px;
         padding-bottom: 0px;
     }
 
-    .jatekosma-container h1 {
+    .jatekosfc-container h1 {
         font-size: 21px;
         text-align: center;
     }
 
-    .jatekosma-container p {
+    .jatekosfc-container p {
         font-size: 20px;
         text-align: center;
     }
 
-    .jatekosma-container img {
+    .jatekosfc-container img {
         height: 170px;
         width: 170px;
         object-fit: cover;
