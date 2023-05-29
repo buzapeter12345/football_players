@@ -46,7 +46,7 @@ const Ujjatekosfc = () => {
                 <label className="labelel" htmlFor="nev">Név: </label>
               </td>
               <td>
-                <input className="form-control" placeholder="Név"
+                <input className="form-control" placeholder="Név" autocomplete="off"
                   type="text"
                   name="nev"
                   id="nev"
@@ -59,7 +59,7 @@ const Ujjatekosfc = () => {
                 <label className="labelel" htmlFor="kor">Kor: </label>
               </td>
               <td>
-                <input className="form-control" placeholder="Kor"
+                <input className="form-control" placeholder="Kor" autocomplete="off"
                   type="number"
                   name="kor"
                   id="kor"
@@ -72,7 +72,7 @@ const Ujjatekosfc = () => {
                 <label className="labelel" htmlFor="kep">Avatár címe:</label>
               </td>
               <td>
-                <input className="form-control" placeholder="Kép címe"
+                <input className="form-control" placeholder="Kép címe" autocomplete="off"
                   type="text"
                   name="kep"
                   id="kep"
