@@ -8,7 +8,7 @@ const Jatekosma = require("./models/jatekosma");
 const Jatekosfc = require("./models/jatekosfc");
 const { diakok, tanarok } = require("./adatok");
 
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT || 3000;
 
 // middlewares
 app.use(cors());
